@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = "http://localhost:5000/cards";
+const url = "https://usa-states-flashcards.onrender.com/cards";
 
 export const createCard = (newCard) => axios.post(url, newCard);
 export const fetchCards = () => axios.get(url);
