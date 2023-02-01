@@ -1,0 +1,83 @@
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.maincontainer-card {
+    position: relative; 
+     transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #777;
+    border-radius: 2rem;
+    /* overflow: hidden; */
+     width: 200px;
+    height: 200px;
+    perspective: 800px;
+    background-color: #7BFFAF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2389adff'/%3E%3Cstop offset='1' stop-color='%2389adff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2384ffec'/%3E%3Cstop offset='1' stop-color='%2384ffec' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23a192ff'/%3E%3Cstop offset='1' stop-color='%23a192ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237BFFAF'/%3E%3Cstop offset='1' stop-color='%237BFFAF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23FE97FF'/%3E%3Cstop offset='1' stop-color='%23FE97FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238DDEFF'/%3E%3Cstop offset='1' stop-color='%238DDEFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+.card-body {
+   font-size:  10px;
+   position:relative;
+   transform-style: preserve-3d;
+   transition: transform 1500ms;
+}
+
+.maincontainer-card:hover > .card-body{
+    cursor:pointer;
+    transform:rotateY(180deg);
+}
+
+.card-front {
+    position:absolute;
+    backface-visibility: hidden;
+    /* overflow: hidden; */
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.card-back {
+    position:absolute;
+    backface-visibility: hidden;
+    /* overflow: hidden; */
+    transform:rotateY(180deg);
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.card-footer {
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: hsl(200,50%,50%);
+    color: white;
+    border: none;
+    padding: .5em .75em;
+    font-size:  1rem;
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.btn:hover, .btn:focus {
+    background: hsl(200,50%,60%);
+}
+
+.btn + .btn {
+    margin-left: .35rem;
+}
+
+h1 {
+    text-align: center;
+}
+

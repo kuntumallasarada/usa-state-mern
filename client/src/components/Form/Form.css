@@ -1,0 +1,25 @@
+.form {
+    background: lightcoral;
+    width: 10cm;
+    padding : 1rem;
+    border-radius : 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.label {
+   font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-div {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 1%;
+    align-items:center;
+}
+
+.createCard {
+    margin-top:0px;
+}
