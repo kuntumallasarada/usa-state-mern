@@ -17,3 +17,7 @@
 <h1>Getting Started</h1>
 <a href="https://trello.com/b/xsi73iui/project-planning">Trello Board - Project Planning</a>
 <h1>Unsolved Problems</h1>
+<h3>I couldn't save User details after he logs in. Was not able to connect the user and the flash cards in the back end.</h3>
+<h1>Future Enhancements</h1>
+<h3>1. Authorization for the user to log in</h3>
+<h3>2. Want to add a quiz for user to test his flash cards and score him.</h3>
